@@ -7,6 +7,7 @@ export function dateTimeToMarkdown(date: Date, locale: SupportedLanguages) {
     month: 'long',
     hour: 'numeric',
     minute: 'numeric',
+    timeZone: 'Asia/Kolkata',
   });
 
   return `**${dateTimeStr}**`;
